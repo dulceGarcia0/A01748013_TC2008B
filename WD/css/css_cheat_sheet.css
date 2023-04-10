@@ -1,9 +1,10 @@
 /* SELECTORES */
 h1 {
-    
+
     /* ATRIBUTOS */
     color: coral;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* VALORES */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     /* VALORES */
 }
 
 h2 {
@@ -26,3 +27,20 @@ h2 {
 body {
     margin: 0;
 }
+
+.classBorder {
+    border: 12px pink solid;
+}
+
+
+.classBorderLRTB{
+    border-left: 20px solid blue;
+    border-right: 12px dotted orange;
+    border-top: 5px solid red;
+    border-bottom: 5px dotted green;
+}
+
+.classBorderRadius{
+    border-radius: 5px 10px orange;
+}
+
