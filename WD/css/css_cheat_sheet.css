@@ -1,0 +1,28 @@
+/* SELECTORES */
+h1 {
+    
+    /* ATRIBUTOS */
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* VALORES */
+}
+
+h2 {
+    color: blueviolet;
+}
+
+/* ID */
+#second_h1 {
+    color: darkmagenta;
+}
+
+
+/* CLASES */
+.container{
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    margin: 0;
+}
