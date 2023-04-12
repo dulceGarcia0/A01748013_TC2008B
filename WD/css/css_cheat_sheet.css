@@ -30,6 +30,7 @@ body {
 
 .classBorder {
     border: 12px pink solid;
+    color: rgb(225, 90, 113);
 }
 
 
@@ -40,7 +41,32 @@ body {
     border-bottom: 5px dotted green;
 }
 
-.classBorderRadius{
-    border-radius: 5px 10px orange;
+.classBorderRadius{  
+    border: 20px solid purple ;
+    border-radius: 50px;
+    color: rgb(233, 161, 233);
 }
 
+.classBackgroundImage{
+    border: 1px solid;
+    background-image: url("../images/sunset.webp");
+    color: aliceblue;
+}
+
+.classColor {
+    color: darkorange;
+}
+
+
+.classFont{
+    font: bold 13pt sans-serif;
+}
+
+.classFontFam{
+    font-size: 17px;
+    font-family: Papyrus;
+}
+
+.classFontStyleWeight{
+    font-style: italic;
+}
