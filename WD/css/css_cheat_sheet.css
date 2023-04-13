@@ -1,50 +1,28 @@
-/* SELECTORES */
-h1 {
-
-    /* ATRIBUTOS */
-    color: coral;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     /* VALORES */
-}
-
-h2 {
-    color: blueviolet;
-}
-
-/* ID */
-#second_h1 {
-    color: darkmagenta;
-}
-
-
-/* CLASES */
-.container{
-    border: 1px black solid;
-    padding: 10px;
-    margin: 10px;
+h1{
+    color: rgb(234, 136, 220);
 }
 
 body {
-    margin: 0;
+    margin: 20px;
 }
 
 .classBorder {
     border: 12px pink solid;
-    color: rgb(225, 90, 113);
+    color: rgb(217, 138, 151);
 }
 
 
 .classBorderLRTB{
-    border-left: 20px solid blue;
-    border-right: 12px dotted orange;
-    border-top: 5px solid red;
-    border-bottom: 5px dotted green;
+    border-left: 20px solid rgb(255, 0, 208);
+    border-right: 12px dotted rgb(188, 10, 174);
+    border-top: 5px solid rgb(237, 171, 221);
+    border-bottom: 5px dotted rgb(121, 41, 104);
 }
 
 .classBorderRadius{  
-    border: 20px solid purple ;
+    border: 20px solid rgb(252, 171, 252) ;
     border-radius: 50px;
-    color: rgb(233, 161, 233);
+    color: rgb(195, 12, 195);
 }
 
 .classBackgroundImage{
@@ -54,12 +32,12 @@ body {
 }
 
 .classColor {
-    color: darkorange;
+    color: rgb(223, 84, 123);
 }
 
 
 .classFont{
-    font: bold 13pt sans-serif;
+    font: bold 20pt sans-serif;
 }
 
 .classFontFam{
@@ -69,4 +47,65 @@ body {
 
 .classFontStyleWeight{
     font-style: italic;
+}
+
+#idFontStyle{
+    font: bold 14px arial;
+}
+
+.classWidth{
+    border: 12px rgb(192, 116, 176) dotted;
+    width: 600px;
+    height: 300px;
+}
+
+.classListStyle li{
+    list-style: square;
+}
+
+.classMargin{
+    margin: 100px;
+    border: 20px rgb(255, 47, 220) dashed;
+}
+
+.classPadding{
+    padding: 20px;
+    border: 10px rgb(239, 182, 232) dotted;
+}
+
+.classOverflow{
+    overflow: scroll;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(252, 208, 234);
+    color: rgb(245, 160, 13);
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.classPosition{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    position: static;
+    border: 50px rgb(192, 116, 176) double;
+}
+
+.classFilter{
+    margin: auto;
+    text-align: center;
+}
+
+.classFilter img{
+    filter: blur(10px);
+}
+
+
+
+div{
+    padding: 50px;
+    margin: 30px;
 }
