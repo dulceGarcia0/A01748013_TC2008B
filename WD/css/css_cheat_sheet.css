@@ -84,6 +84,12 @@ body {
     padding: 30px;
 }
 
+.classDisplay{
+    display: block;
+    background-color: rgb(233, 147, 161);
+    color:aliceblue;
+}
+
 .classPosition{
     width: 500px;
     height: 300px;

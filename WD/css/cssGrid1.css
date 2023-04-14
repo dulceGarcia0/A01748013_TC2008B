@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(86, 83, 83);
+}
+
+.grid-container{
+    margin: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "header header header";
+    grid-auto-rows: minmax(150px, 1fr);
+    gap: 10px; 
+}
+
+.grid-item{
+    padding: 10px;
+    border: 0px white solid;
+    background-color: rgb(93, 230, 230);
+    min-height: 0;
+}
+
+.background1{
+    background-color: rgb(247, 29, 29);
+}
+
+.background2{
+    background-color: orange;
+}
+
+.background3{
+    background-color: yellow;
+}
+
+.background4{
+    background-color: green;
+}
+
+.background5{
+    background-color: greenyellow;
+}
+
+.background6{
+    background-color: aquamarine;
+}
