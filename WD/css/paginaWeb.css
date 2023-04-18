@@ -1,0 +1,32 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    display: flex;
+    height: 90px;
+    background-color: paleturquoise;
+    align-items: center;
+}
+
+.nav-bar #logo{
+    flex-basis: 300px;
+    padding-left: 100px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+

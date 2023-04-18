@@ -9,9 +9,10 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(6, fr);
-    grid-template-rows: 2fr 3fr 1fr ;
-    grid-template-areas: "a a a b b b"
-                         "c c c d d d";
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas: "a a b b"
+                         "c c d d"
+                         "c c d d";
     grid-auto-rows: minmax(150px, 1fr);
     gap: 10px; 
 }
@@ -35,8 +36,36 @@ body {
     background-color: green;
     grid-area: d;
 }
-/* 
-.grid-item-5{
+
+.extra {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "a a a a"
+                         "b b c c";
+    grid-auto-rows: minmax(150px, 1fr);
+    gap: 10px; 
+}
+
+.prueba1 {
+    background-color: yellowgreen;
+    margin: 10px;
+    height: 100%;
+    grid-area: a;
+    
+}
+
+.prueba2{
+    background-color: rgb(9, 157, 9);
+    margin: 10px;
+    height: auto;
+    grid-area: b;
+}
+
+.prueba3{
     background-color: orange;
-    grid-area: e;
-} */
+    margin: 10px;
+    height: auto;
+    grid-area: c;
+    
+}

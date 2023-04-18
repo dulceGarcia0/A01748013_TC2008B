@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    /* Considera el margen, padding y borde para los tamaños */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    
+}
+
+.nav-bar{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.nav-bar img {
+    flex-basis: 20px;
+}
+
+.nav-bar #menu {
+    flex-grow: 1;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
