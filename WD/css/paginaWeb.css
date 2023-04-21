@@ -1,5 +1,6 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
 }
 
 body{
@@ -10,7 +11,7 @@ body{
 .nav-bar{
     display: flex;
     height: 90px;
-    background-color: paleturquoise;
+    background-color: rgb(37,64,75);
     align-items: center;
 }
 
@@ -28,5 +29,85 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-grow: 1;
+    color: white;
 }
 
+.webDevelopment{
+    background-color: rgb(185,125,46);
+    color: white;
+    height: 270px;
+    padding: 10px;
+}
+
+#webDevelopmentCourse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#webDevelopmentLorem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 15px;
+    /* padding: 50px; */
+    margin: 90px;
+}
+
+
+.subscribe{
+    background-color: rgb(37,64,75);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color {
+    background-color: rgb(185,125,46);
+    color: white;
+}
+
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#html{
+    width: 150px;
+}
+
+#js{
+    width: 250px;
+}
+
+#css{
+    width: 110px;
+}
+
+.lastContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37,64,75);
+    height: 60px;
+    color: white;
+}
