@@ -31,6 +31,16 @@ h1{
 }
 
 .tarea3{
+    border: 10px solid rgb(218, 215, 34) ;
+    border-radius: 50px;
+    color: rgb(240, 176, 16);
+    padding: 80px;
+    margin: auto;
+    font-size: 20px;
+    width: 700px;
+}
+
+.tarea4{
     border: 10px dotted rgb(218, 215, 34) ;
     border-radius: 50px;
     color: rgb(240, 176, 16);
